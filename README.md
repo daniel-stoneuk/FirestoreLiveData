@@ -1,6 +1,6 @@
 # FirestoreLiveData
 
-Transforms Firebase Cloud Firestore queries, collections, and documents into `LiveData`. **Forked from [ptrbrynt/FirestoreLiveData](https://github.com/ptrbrynt/FirestoreLiveData) with support for unregistering listeners.**
+Transforms Firebase Cloud Firestore queries, collections, and documents into `LiveData`. **Forked from [ptrbrynt/FirestoreLiveData](https://github.com/ptrbrynt/FirestoreLiveData) to add support for unregistering listeners.**
 
 Inspired by blog posts by [The Firebase Blog](https://firebase.googleblog.com/2017/12/using-android-architecture-components.html)
 
