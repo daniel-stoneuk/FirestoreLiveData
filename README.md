@@ -1,17 +1,17 @@
-[![Release](https://jitpack.io/v/ptrbrynt/FirestoreLiveData.svg)](https://jitpack.io/#ptrbrynt/FirestoreLiveData) [![](https://jitpack.io/v/ptrbrynt/FirestoreLiveData/month.svg)](https://jitpack.io/#ptrbrynt/FirestoreLiveData)
-![CircleCI](https://circleci.com/gh/ptrbrynt/FirestoreLiveData.svg?style=shield)
-[![Codacy Grade](https://api.codacy.com/project/badge/Grade/3bd0348f9a5c48eaa6489ad66f7ae301)](https://www.codacy.com/app/ptrbrynt/FirestoreLiveData?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ptrbrynt/FirestoreLiveData&amp;utm_campaign=Badge_Grade)
-[![Codacy Coverage](https://api.codacy.com/project/badge/Coverage/3bd0348f9a5c48eaa6489ad66f7ae301)](https://www.codacy.com/app/ptrbrynt/FirestoreLiveData?utm_source=github.com&utm_medium=referral&utm_content=ptrbrynt/FirestoreLiveData&utm_campaign=Badge_Coverage)
-[![Libraries.io for GitHub](https://img.shields.io/librariesio/github/ptrbrynt/FirestoreLiveData.svg)](https://libraries.io/github/ptrbrynt/FirestoreLiveData)
-
-
-
-
-
-
 # FirestoreLiveData
 
-Transforms Firebase Cloud Firestore queries, collections, and documents into `LiveData`.
+Transforms Firebase Cloud Firestore queries, collections, and documents into `LiveData`. **Forked from [ptrbrynt/FirestoreLiveData](https://github.com/ptrbrynt/FirestoreLiveData) with support for unregistering listeners.**
+
+Inspired by blog posts by [The Firebase Blog](https://firebase.googleblog.com/2017/12/using-android-architecture-components.html)
+
+## TODO
+
+Classes that need to be updated
+
+- [ ] QueryLiveData
+- [ ] DocumentLiveData
+- [ ] CollectionLiveData
+- [ ] FirebaseAuthLiveData
 
 ## Getting Started
 
@@ -27,7 +27,7 @@ allprojects {
 
 To add FirestoreLiveData to your app, add the following dependency to your module's `build.gradle` file:
 ```gradle
-implementation "com.github.ptrbrynt:FirestoreLiveData:$latestVersion"
+implementation 'com.github.daniel-stoneuk:FirestoreLiveData:Tag'
 ```
 
 ## Creating Models
